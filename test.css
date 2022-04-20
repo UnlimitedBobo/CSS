@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Frank+Ruhl+Libre&display=swap');
+
+a:link, a:visited {
+  text-decoration: underline;
+  color: #D8D8D8;
+  -webkit-text-stroke-width: 0.17vh;
+  -webkit-text-stroke-color: #EDA921;
+  -webkit-text-fill-color: #FFBB32;
+}
+
+body {
+ background-color: #FFFFFF;
+ background-repeat: no-repeat;
+ background-size: cover;
+ overflow: hidden;
+}
+
+#ci {
+ animation-timing-function: ease-in-out;
+ border-style: solid;
+ height: 85vh;
+ width: 85vh;
+ background: url(https://i.imgur.com/y2ooRKs.jpg) no-repeat;
+ background-size: contain;
+ border-width: 0vh;
+ overflow: hidden;
+ z-index: 0;
+ position: fixed;
+ position: absolute;
+ right: 55vw;
+ top: 10vh;
+}
+
+#ti {
+ font-family: 'Berkshire Swash', cursive;
+ font-size: 8vw;
+ letter-spacing: 0.175vw;
+ color: #FFFFFF;
+ left: 35vw;
+ top: 15vh;
+ position: absolute;
+ display: flex;
+ width: 60vw;
+ height: 60vh;
+ flex-direction: column;
+ z-index: 1;
+ -webkit-text-stroke-width: 0.3vh;
+ -webkit-text-stroke-color: #EDA921;
+ -webkit-text-fill-color: #FFBB32;
+ background: url(https://media3.giphy.com/media/jsUIl8W67ohMXGx1V8/200.gif) no-repeat;
+ -webkit-background-clip: text;
+ background-size: cover;
+ line-height: 18vh;
+}
+
+#ti2 {
+ font-family: 'Frank Ruhl Libre', serif;
+ font-size: 3vw;
+ letter-spacing: normal;
+ -webkit-text-stroke-width: 0.17vh;
+ line-height: 8vh;
+ position: relative;
+ left: 2.25vw;
+ top: 2.25vh;
+}
